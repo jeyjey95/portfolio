@@ -1,0 +1,29 @@
+.container-achievements {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-achievements {
+    padding: 0 20px;
+  }
+
+  .gallery {
+    gap: 20px;
+  }
+}
